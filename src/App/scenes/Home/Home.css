@@ -1,0 +1,16 @@
+.Jumbotron {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginButton {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1em 2em;
+}

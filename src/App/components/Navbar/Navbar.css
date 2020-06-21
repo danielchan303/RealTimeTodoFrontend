@@ -1,0 +1,38 @@
+.Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.Navbar ul {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Navbar li {
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+.Navbar a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.Navbar a:hover, .Navbar a.active {
+    background-color: rgb(59, 58, 58);
+}
+
+#BrandNav:hover {
+    background-color: black;
+}

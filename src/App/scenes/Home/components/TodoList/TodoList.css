@@ -1,0 +1,28 @@
+.ListTitle {
+    width: 100%;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-weight: bold;
+}
+
+.ListTitle:focus {
+    border-bottom: 1px solid black;
+}
+
+.newItemInput {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.DeleteTodoListButton {
+    float: right;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}

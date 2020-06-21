@@ -1,0 +1,43 @@
+.ListItem {
+    margin:0.5em 0;
+    display: flex;
+}
+
+.ListItemCheckBox {
+    align-self: center;
+    height: 2em;
+    width: 2em;
+    margin: 0;
+    margin-right: 0.1em;
+}
+
+.ListItemInput {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    resize: none;
+    overflow-y: hidden;
+}
+
+:checked + .ListItemInput {
+    text-decoration: line-through;
+}
+
+.ListItemInput:focus {
+    border-bottom: 1px solid black;
+}
+
+.ListItemDeleteButton {
+    transition: all 0.5s;
+    overflow: hidden;
+    background-color: red;
+    color: white;
+    width: 0;
+    padding: 0;
+    border: none;
+}
+
+.ListItem:hover .ListItemDeleteButton {
+    width: 50px;
+    padding: 0 1em;
+}

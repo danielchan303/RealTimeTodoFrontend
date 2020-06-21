@@ -1,0 +1,9 @@
+.MessageBar {
+    background-color: rgb(235, 48, 48);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 2.3em;
+    left: 0;
+    padding: 0.5em 1em;
+}
